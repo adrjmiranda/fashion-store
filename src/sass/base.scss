@@ -1,0 +1,19 @@
+@import './variables';
+@import './keyframes';
+@import './elements';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $anekTamil;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
