@@ -1,1 +1,30 @@
 @import '../../sass/base.scss';
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-weight: $fwExtraLarge;
+
+	svg {
+		margin-bottom: 0.2rem;
+		color: $colorOrange;
+		font-size: 1.5rem;
+	}
+
+	span {
+		font-family: $satisfy;
+		font-size: 1.8rem;
+		background-image: linear-gradient(to right, $colorOrange, $colorPink);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: $trSmall;
+	}
+
+	&:hover {
+		span {
+			background-image: linear-gradient(to left, $colorOrange, $colorPink);
+		}
+	}
+}

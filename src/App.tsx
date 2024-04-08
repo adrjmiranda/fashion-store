@@ -1,11 +1,23 @@
 import { FunctionComponent, ReactNode } from 'react';
 
+// Style
 import './sass/base.scss';
+
+// Components
+import Header from './components/header';
+import Offers from './components/offers';
+import Promotion from './components/promotion';
+import Highlights from './components/highlights';
+import Footer from './components/footer';
 
 const App: FunctionComponent = (): ReactNode => {
 	return (
 		<>
-			<h1>Fashion Store</h1>
+			<Header />
+			<Offers />
+			<Promotion />
+			<Highlights />
+			<Footer />
 		</>
 	);
 };
