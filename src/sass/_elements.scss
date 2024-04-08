@@ -4,3 +4,19 @@
 	margin: 0 auto;
 	padding: 0 1rem;
 }
+
+.btn {
+	background-image: linear-gradient(to right, $colorOrange, $colorPink);
+	width: fit-content;
+	padding: 0.5rem 1rem;
+	border-radius: $brMedium;
+	color: $colorLightGreen;
+	transition: $trSmall;
+	text-transform: capitalize;
+	font-size: 1.1rem;
+	font-weight: $fwMedium;
+
+	&:hover {
+		background-image: linear-gradient(to left, $colorOrange, $colorPink);
+	}
+}

@@ -17,7 +17,7 @@ const Navbar: FunctionComponent = (): ReactNode => {
 		<div className={style.navbar}>
 			<nav className='wrapper'>
 				<ul className={style.menu_left}>
-					<li>
+					<li className={style.active}>
 						<a href='#'>Home</a>
 					</li>
 					<li>

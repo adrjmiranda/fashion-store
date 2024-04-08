@@ -1,1 +1,94 @@
 @import '../../sass/base.scss';
+
+.main_banner {
+	height: calc(90vh - 80px);
+
+	> div {
+		height: 100%;
+	}
+
+	.slide {
+		.content {
+			height: 100%;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			display: flex;
+
+			.info {
+				display: flex;
+				width: 50%;
+				flex-direction: column;
+				justify-content: center;
+				height: 100%;
+				gap: 1rem;
+				color: $colorBlack;
+
+				h2 {
+					font-family: $satisfy;
+					font-size: 4.5rem;
+					color: inherit;
+				}
+
+				p {
+					font-size: 1.3rem;
+					font-weight: $fwBig;
+					color: inherit;
+				}
+			}
+		}
+
+		&:nth-child(1) {
+			.content {
+				.info {
+					h2 {
+						text-shadow: 2px 2px 0 $colorYellow;
+					}
+				}
+			}
+		}
+
+		&:nth-child(2) {
+			.content {
+				.info {
+					h2 {
+						text-shadow: 2px 2px 0 $colorLightGreen;
+					}
+				}
+			}
+		}
+
+		&:nth-child(3) {
+			.content {
+				.info {
+					h2 {
+						text-shadow: 2px 2px 0 $colorPink;
+					}
+				}
+			}
+		}
+
+		&:nth-child(4) {
+			.content {
+				.info {
+					margin-left: auto;
+
+					h2 {
+						text-shadow: 2px 2px 0 $colorLightGreen;
+					}
+				}
+			}
+		}
+
+		&:nth-child(5) {
+			.content {
+				.info {
+					h2 {
+						text-shadow: 2px 2px 0 $colorOrange;
+					}
+				}
+			}
+		}
+	}
+}

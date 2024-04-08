@@ -1,5 +1,4 @@
 @import './variables';
-@import './keyframes';
 @import './elements';
 
 * {
@@ -16,4 +15,8 @@ a {
 ul {
 	padding-left: 0;
 	list-style: none;
+}
+
+.swiper-pagination-bullet {
+	background-color: $colorPeach !important;
 }

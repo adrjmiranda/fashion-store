@@ -1,8 +1,9 @@
 @import '../../sass/base.scss';
 
 .navbar {
-	padding: 1rem 0;
-	box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.05);
+	display: flex;
+	align-items: center;
+	height: 80px;
 
 	nav {
 		display: flex;
@@ -52,6 +53,14 @@
 						&::after {
 							width: 100%;
 						}
+					}
+				}
+			}
+
+			li.active {
+				a {
+					&::after {
+						width: 100%;
 					}
 				}
 			}
