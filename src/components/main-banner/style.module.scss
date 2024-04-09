@@ -33,7 +33,7 @@
 
 				p {
 					font-size: 1.3rem;
-					font-weight: $fwBig;
+					font-weight: $fwExtraBig;
 					color: inherit;
 				}
 			}
@@ -72,8 +72,6 @@
 		&:nth-child(4) {
 			.content {
 				.info {
-					margin-left: auto;
-
 					h2 {
 						text-shadow: 2px 2px 0 $colorLightGreen;
 					}

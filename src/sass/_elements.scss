@@ -15,6 +15,7 @@
 	text-transform: capitalize;
 	font-size: 1.1rem;
 	font-weight: $fwMedium;
+	display: flex;
 
 	&:hover {
 		background-image: linear-gradient(to left, $colorOrange, $colorPink);
