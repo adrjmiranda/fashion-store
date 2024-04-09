@@ -4,7 +4,7 @@ import { FunctionComponent, ReactNode } from 'react';
 import style from './style.module.scss';
 
 const Highlights: FunctionComponent = (): ReactNode => {
-	return <div>Highlights</div>;
+	return <div className={style.highlights}></div>;
 };
 
 export default Highlights;

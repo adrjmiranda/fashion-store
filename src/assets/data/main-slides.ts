@@ -23,7 +23,7 @@ const mainSlidesData = [
 	{
 		id: 3,
 		image: Bg3,
-		title: 'Cicero written in 45 BC',
+		title: 'Cicero written in BC',
 		description:
 			'Store College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word',
 	},

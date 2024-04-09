@@ -1,1 +1,10 @@
 @import '../../sass/base.scss';
+
+.offers {
+	.products {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.3rem;
+	}
+}

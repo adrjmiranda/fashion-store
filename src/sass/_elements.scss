@@ -16,8 +16,31 @@
 	font-size: 1.1rem;
 	font-weight: $fwMedium;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 
 	&:hover {
 		background-image: linear-gradient(to left, $colorOrange, $colorPink);
+	}
+}
+
+.session-info {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin: 4rem 0;
+
+	.session-title {
+		font-family: $satisfy;
+		font-size: 2rem;
+		text-align: center;
+		color: $colorOrange;
+	}
+
+	.session-description {
+		text-align: center;
+		font-size: 1.1rem;
+		color: $colorBlack;
+		font-weight: $fwSmall;
 	}
 }
