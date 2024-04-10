@@ -26,9 +26,17 @@ const OfferCard: FunctionComponent<{ props: OfferCardProps }> = ({
 
 		for (let i = 0; i < 5; i++) {
 			if (i < rate) {
-				rating.push(<IoMdStar />);
+				rating.push(
+					<div key={i}>
+						<IoMdStar />
+					</div>
+				);
 			} else {
-				rating.push(<IoMdStarOutline />);
+				rating.push(
+					<div key={i}>
+						<IoMdStarOutline />
+					</div>
+				);
 			}
 		}
 

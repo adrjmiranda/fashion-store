@@ -5,6 +5,8 @@ import style from './style.module.scss';
 
 // Data
 import offersData from '../../assets/data/offers';
+
+// Components
 import OfferCard from '../offer-card';
 
 const Offers: FunctionComponent = (): ReactNode => {

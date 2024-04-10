@@ -1,0 +1,37 @@
+@import '../../sass/base.scss';
+
+.benefits {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8rem;
+
+	.item {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+
+		.icon {
+			svg {
+				font-size: 3.5rem;
+				color: $colorYellow;
+			}
+		}
+
+		.info {
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+
+			h5 {
+				font-size: 1.2rem;
+				font-weight: $fwExtraBig;
+			}
+
+			span {
+				font-weight: $fwSmall;
+				font-size: 1.1rem;
+			}
+		}
+	}
+}
