@@ -9,7 +9,7 @@ import MainBanner from '../main-banner';
 
 const Header: FunctionComponent = (): ReactNode => {
 	return (
-		<header>
+		<header className={style.header}>
 			<Navbar />
 			<MainBanner />
 		</header>

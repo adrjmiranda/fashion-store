@@ -48,4 +48,25 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 800px) {
+		padding: 4rem 0;
+		height: auto;
+
+		.content {
+			flex-direction: column;
+
+			.img {
+				width: 100%;
+			}
+		}
+	}
+
+	@media screen and (max-width: 660px) {
+		.img {
+			img {
+				object-position: 100% 10%;
+			}
+		}
+	}
 }

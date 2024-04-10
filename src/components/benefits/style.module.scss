@@ -34,4 +34,23 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 980px) {
+		flex-wrap: wrap;
+		gap: 10%;
+		row-gap: 2rem;
+
+		.item {
+			flex: 40%;
+			justify-content: center;
+			text-align: center;
+		}
+	}
+
+	@media screen and (max-width: 576px) {
+		.item {
+			flex: 100%;
+			flex-direction: column;
+		}
+	}
 }

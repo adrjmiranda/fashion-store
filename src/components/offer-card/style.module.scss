@@ -41,6 +41,12 @@
 				border-radius: 50%;
 				padding: 0.5rem;
 				cursor: pointer;
+				transition: $trSmall;
+
+				&:hover {
+					transform: scale(1.2);
+					box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.1);
+				}
 			}
 		}
 
@@ -83,6 +89,26 @@
 		span {
 			font-weight: bold;
 			font-size: 1.1rem;
+		}
+	}
+
+	@media screen and (max-width: 960px) {
+		flex: 47.5%;
+
+		.img {
+			height: 850px;
+		}
+	}
+
+	@media screen and (max-width: 630px) {
+		flex: 100%;
+
+		.img {
+			height: 750px;
+
+			img {
+				object-fit: contain;
+			}
 		}
 	}
 }

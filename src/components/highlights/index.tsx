@@ -60,7 +60,7 @@ const Highlights: FunctionComponent = (): ReactNode => {
 					slidesPerView={currentSlidesPerView}
 					pagination={{ clickable: true }}
 					loop={true}
-					autoplay
+					autoplay={{ delay: 3000 }}
 				>
 					{clothesData.map((clothe) => (
 						<SwiperSlide key={clothe.id}>

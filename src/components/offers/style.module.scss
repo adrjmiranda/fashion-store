@@ -7,4 +7,11 @@
 		align-items: center;
 		gap: 1.3rem;
 	}
+
+	@media screen and (max-width: 960px) {
+		.products {
+			flex-wrap: wrap;
+			gap: 5%;
+		}
+	}
 }
